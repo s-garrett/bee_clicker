@@ -1,20 +1,25 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en-us">
   <head>
     <meta charset="utf-8">
-    <title>s-garrett | Games</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | final_proj</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>  
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/final_proj_webVersion.json", {onProgress: UnityProgress});
+    </script>
   </head>
   <body>
-    <h2 align="center">Jeremy's Will</h2>
-    <ul>
-      <li>click on the bees before they reach you in the center of the map</li>
-      <li>each bee that hits you will reduce your health.</li>
-      <li>clicking on a mushroom will give you more health.</li>
-      <li>the game is over when you run out of health or time. </li>
-      <li>by clicking on the stumps that appear you can gain more time.</li>
-    </ul>
-    <h3 align="center">HOLD OFF FOR AS LONG AS POSSIBLE TO KEEP JEREMY'S WILL TO LIVE ALIVE!</h3>
-    <a> <button style = "color: black" href="BeeClicker.html">PLAY GAME</button> </a>
+    <div class="webgl-content">
+      <div id="gameContainer" style="width: 960px; height: 600px"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+        <div class="title">final_proj</div>
+      </div>
+    </div>
   </body>
 </html>
