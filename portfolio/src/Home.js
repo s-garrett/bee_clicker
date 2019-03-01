@@ -40,22 +40,22 @@ class Home extends Component {
       <h2 className="App-proj-title">Unity Games:</h2>
       <div className="proj-container">
         <div className="single_game">
-          <img className="images" src={img_pickup_home}/>
+          <img className="images" src={img_pickup_home} alt=""/>
           <UnityGame name="Pick Up" linker="https://s-garrett.github.io/portfolio/src/final_proj.html" paragraph={pickupDesc}/>
         </div>
         <div className="single_game">
-          <img className="images" src={img_bee_clicker}/>
+          <img className="images" src={img_bee_clicker} alt=""/>
           <UnityGame name="Bee Clicker" linker="https://s-garrett.github.io/portfolio/src/bee_clicker.html" paragraph={beeClickerDesc}/>
         </div>
       </div>
       <h2 className="App-proj-title">Applications:</h2>
       <div className="proj-container">
         <div className="single_game">
-          <img className="images" src={img_316}/>
+          <img className="images" src={img_316} alt=""/>
           <UnityGame name="Power 5 Conference Distance Database" linker="https://github.com/s-garrett/cs316_project" paragraph={runnerDBDesc}/>
         </div>
         <div className="single_game">
-          <img className="images" src={img_android}/>
+          <img className="images" src={img_android} alt=""/>
           <UnityGame name="Lost and Found" linker="https://github.com/s-garrett/LostandFound" paragraph={lost_and_found}/>
         </div>
       </div>

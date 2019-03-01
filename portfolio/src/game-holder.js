@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import PropTypes from "prop-types";
 import './game-holder.css';
-import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
 
 class UnityGame extends Component {
   handleClick = (url) => {
