@@ -1,0 +1,13 @@
+.body {
+  Display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  height: 100%;
+
+}
+
+#para {
+  width: 70%;
+}
