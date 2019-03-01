@@ -5,7 +5,6 @@ import img_android from './images/android.png';
 import img_316 from './images/316_home.png';
 import img_pickup_home from './images/pick_up_home.png';
 import img_bee_clicker from './images/bee_clicker.png';
-import Link from 'react-router-dom';
 
 const pickupDesc = "This game investigates changing scenees and inventory slots\
   with interactable items. You are inside the Innsmouth Hotel. (Inspired by H.P.\
