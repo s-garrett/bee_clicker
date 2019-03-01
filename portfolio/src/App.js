@@ -4,20 +4,6 @@ import logo from './logo.svg';
 import './App.css';
 import Home from './Home.js';
 
-const MainMenu = () => {
-  return (<div>
-    <Link to="/Unity-Bee-Clicker">
-      <button>1</button>
-    </Link>
-    <Link to="/Unity-Bee-Clicker">
-      <button>2</button>
-    </Link>
-    <Link to="/Unity-Bee-Clicker">
-      <button>3</button>
-    </Link>
-  </div>);
-};
-
 class App extends Component {
   render() {
     return (<Router>
@@ -28,16 +14,11 @@ class App extends Component {
           </Link>
           <div className="App-header-text">
             <h1 className="App-title">Stephen Garrett: My Portfolio</h1>
-            <MainMenu />
           </div>
         </header>
-
-        <div>
-          <BrowserRouter basename="https://s-garrett.github.io/portfolio" path="/" component={Home}/>
-        </div>
-
+        <Home/>
       </div>
-    </Router>);
+    </Router> );
   }
 }
 

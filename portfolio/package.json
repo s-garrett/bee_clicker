@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://s-garrett.github.io/portfolio",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-router-dom": "^4.3.1",
