@@ -33,7 +33,7 @@ class App extends Component {
         </header>
 
         <div>
-          <Route exact="exact" path="/" component={Home}/>
+          <BrowserRouter basename="https://s-garrett.github.io/" component={Home}/>
         </div>
 
       </div>
