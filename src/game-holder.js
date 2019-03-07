@@ -33,7 +33,7 @@ class UnityGame extends Component {
                 </button>
               </Link>
         }
-        <p id="para">{this.props.paragraph}</p>
+        <p>{this.props.paragraph}</p>
       </div>
     </div>);
   }
