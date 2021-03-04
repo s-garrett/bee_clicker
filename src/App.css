@@ -1,12 +1,20 @@
+.App{
+  width:auto;
+}
+
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif
+  font-family: fantasy;
 }
 
 .App-header {
   background-color: #222;
+  top: 0;
+  left: 0;
+  position: fixed;
   height: 150px;
+  width:100%;
   padding: 20px;
   color: #fff
 }
@@ -15,10 +23,6 @@ body {
   -webkit-animation: App-logo-spin infinite 20s linear;
   animation: App-logo-spin infinite 20s linear;
   height: 80px
-}
-
-.App-title {
-  font-size: 2em
 }
 
 @-webkit-keyframes App-logo-spin {
@@ -45,13 +49,25 @@ body {
   }
 }
 
+.toolbar {
+  display: flex;
+  justify-content: space-between
+}
+
 .App-header-text {
   padding-left: 25px;
   padding-right: 25px;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: justify;
-  justify-content: space-between
+  Display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.Mobile-app-header-text {
+  font-size: medium;
+}
+
+.text {
+  font-size: small;
 }
 
 .Home {
@@ -62,41 +78,5 @@ body {
   flex-direction: column
 }
 
-.App-proj-title {
-  padding-top: 20px;
-  padding-bottom: 10px
-}
-
-.proj-container {
-  padding-left: 75px;
-  padding-right: 75px;
-  padding-bottom: 50px
-}
-
-.images {
-  height: 150px;
-  width: 300px;
-  -ms-flex-item-align: center;
-  align-self: center
-}
-
-.single_game {
-  display: grid;
-  grid-template-columns: 30% 70%
-}
-
-.body {
-  Display: flex;
-  -ms-flex-pack: justify;
-  justify-content: space-between
-}
-
-.button {
-  height: 100%
-}
-
-#para {
-  width: 70%
-}
 
 /*# sourceMappingURL=main.69cc3453.css.map*/
