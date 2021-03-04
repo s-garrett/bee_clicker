@@ -1,0 +1,14 @@
+.Home {
+  Display: flex;
+  flex-direction: column;
+}
+
+.App-proj-title {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.images {
+  height: 150px;
+  width: 250px;
+}
